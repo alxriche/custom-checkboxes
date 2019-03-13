@@ -32,22 +32,22 @@ You can add styling classes:
 
 ### Manage shape (default: square)
 * custCbx-square ![custCbx-square](/example/custCbx-square.png?raw=true)
-* custCbx-rounded ![custCbx-rounded](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-rounded.png?raw=true)
-* custCbx-round ![custCbx-round](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-round.png)
-* custCbx-tick (mutually exclusive with *animation* class `custCbx-checking`) ![custCbx-tick](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-tick.png)
+* custCbx-rounded ![custCbx-rounded](/example/custCbx-rounded.png?raw=true)
+* custCbx-round ![custCbx-round](/example/custCbx-round.png?raw=true)
+* custCbx-tick (mutually exclusive with *animation* class `custCbx-checking`) ![custCbx-tick](/example/custCbx-tick.png?raw=true)
 
 ### Manage animation (default: no animation)
-* custCbx-fading ![custCbx-fading](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-fading.gif)
-* custCbx-checking (based on the `custCbx-tick` shape class) ![custCbx-checking](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-checking.gif)
+* custCbx-fading ![custCbx-fading](/example/custCbx-fading.gif?raw=true)
+* custCbx-checking (based on the `custCbx-tick` shape class) ![custCbx-checking](/example/custCbx-checking.gif?raw=true)
 
 ### Manage color (default: black)
-* custCbx-black ![custCbx-black](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-black.png)
-* custCbx-grey ![custCbx-grey](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-grey.png)
-* custCbx-white ![custCbx-white](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-white.png)
-* custCbx-blue ![custCbx-blue](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-blue.png)
-* custCbx-red ![custCbx-red](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-red.png)
-* custCbx-violet ![custCbx-violet](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-violet.png)
-* custCbx-green ![custCbx-green](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-green.png)
+* custCbx-black ![custCbx-black](/example/custCbx-black.png?raw=true)
+* custCbx-grey ![custCbx-grey](/example/custCbx-grey.png?raw=true)
+* custCbx-white ![custCbx-white](/example/custCbx-white.png?raw=true)
+* custCbx-blue ![custCbx-blue](/example/custCbx-blue.png?raw=true)
+* custCbx-red ![custCbx-red](/example/custCbx-red.png?raw=true)
+* custCbx-violet ![custCbx-violet](/example/custCbx-violet.png?raw=true)
+* custCbx-green ![custCbx-green](/example/custCbx-green.png?raw=true)
 
 ***Warning: Only one class of each category can be used. In case of multiple classes from a same category, only the first one will be used.***
 
