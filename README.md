@@ -61,8 +61,8 @@ Feel free to edit the styles.css and create your own styles!
 
 ### Specific actions
 
-* `custCbxCheckAll`: check all custom checkboxes on the page
-* `custCbxUncheckAll`: uncheck all custom checkboxes on the page
+* `custCbxCheckAll()`: check all custom checkboxes on the page
+* `custCbxUncheckAll()`: uncheck all custom checkboxes on the page
 
 ## Example
 
