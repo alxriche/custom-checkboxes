@@ -8,10 +8,11 @@ This version is the 1.0.0 stable version, this should work smoothly on most brow
 
 ## Installation
 
-Copy this project in your vendor/ directory and initialize it before the closing `</body>` tag and call immediately after the `custCbx()` function:
-
+1. Copy this project in your vendor/ directory
+2. Link the CSS `<link rel="stylesheet" media="screen" href="vendor/custom-checkboxes-master/themes/styles.min.css" type="text/css">` between the `<head>` and closing `</head>`tags
+3. Call the custom checkboxes library before the closing `</body>` and call immediately after the `custCbx()` function:
 ``` html
-  <script type="text/javascript" src="vendor/js/custom-checkboxes/customCheckboxes_1.0.min.js"></script>
+  <script type="text/javascript" src="vendor/custom-checkboxes-master/js/customCheckboxes_1.0.min.js"></script>
   <script>
     custCbx();
   </script>
@@ -49,6 +50,8 @@ You can add styling classes:
 
 You can mix shape / animation / color classes as in this example: ![custCbx-mixed-example](/example/custCbx_mixed-example.gif?raw=true)
 
+Feel free to edit the styles.css and create your own styles!
+
 ***Warning: Only one class of each category can be used. In case of multiple classes from a same category, only the first one will be used.***
 
 ### Specific actions
@@ -61,7 +64,7 @@ You can mix shape / animation / color classes as in this example: ![custCbx-mixe
 ``` html
 <html>
   <head>
-    ...
+    <link rel="stylesheet" media="screen" href="vendor/custom-checkboxes-master/themes/styles.min.css" type="text/css" >
   </head>
   <body>
     <p>
@@ -79,7 +82,7 @@ You can mix shape / animation / color classes as in this example: ![custCbx-mixe
       <label for="checkbox3">Already checked</label>
     </p>
     
-    <script type="text/javascript" src="vendor/js/custom-checkboxes/customCheckboxes_1.0.min.js"></script>
+    <script type="text/javascript" src="vendor/custom-checkboxes-master/js/customCheckboxes_1.0.min.js"></script>
     <script>
       custCbx();
     </script>
