@@ -14,8 +14,13 @@ This version is the 1.0.0 stable version, this should work smoothly on most brow
 ## Installation
 
 1. Copy this project in your vendor/ directory
-2. Link the CSS `<link rel="stylesheet" media="screen" href="vendor/custom-checkboxes-master/themes/styles.min.css" type="text/css">` between the `<head>` and closing `</head>`tags
-3. Call the custom checkboxes library before the closing `</body>` and call immediately after the `custCbx()` function:
+2. Link the `styles.min.css` CSS between the `<head>` and closing `</head>`tags
+``` html
+  <head>
+    <link rel="stylesheet" media="screen" href="vendor/custom-checkboxes-master/themes/styles.min.css" type="text/css">
+  </head>
+```
+3. Call the custom checkboxes library before the closing `</body>` tag and call immediately after the `custCbx()` function:
 ``` html
   <script type="text/javascript" src="vendor/custom-checkboxes-master/js/customCheckboxes_1.0.min.js"></script>
   <script>
