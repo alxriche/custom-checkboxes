@@ -4,7 +4,7 @@ A light and simple way to custom your form checkboxes.
 
 ## How it works
 
-This library hides the icons designated as to be customized, and creates graphic clones from `<div>` tags.
+This library hides the checkboxes designated as to be customized, and creates graphic clones from `<div>` tags.
 Checked state is synchronized between them.
 
 ## Project status
@@ -63,6 +63,7 @@ Feel free to edit the styles.css and create your own styles!
 
 * `custCbxCheckAll()`: check all custom checkboxes on the page
 * `custCbxUncheckAll()`: uncheck all custom checkboxes on the page
+* `custCbxStatus(*itemId*)`: return the check state of a checkbox
 
 ## Example
 
