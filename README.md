@@ -31,23 +31,23 @@ Add the `custCbx` class to all checkboxes to customize.
 You can add styling classes:
 
 ### Manage shape (default: square)
-* custCbx-square
-* custCbx-rounded
-* custCbx-round
-* custCbx-tick (mutually exclusive with *animation* class `custCbx-checking`)
+* custCbx-square ![custCbx-square](/example/custCbx-square.png?raw=true)
+* custCbx-rounded ![custCbx-rounded](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-rounded.png?raw=true)
+* custCbx-round ![custCbx-round](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-round.png)
+* custCbx-tick (mutually exclusive with *animation* class `custCbx-checking`) ![custCbx-tick](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-tick.png)
 
 ### Manage animation (default: no animation)
-* custCbx-fading
-* custCbx-checking (based on the `custCbx-tick` shape class)
+* custCbx-fading ![custCbx-fading](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-fading.gif)
+* custCbx-checking (based on the `custCbx-tick` shape class) ![custCbx-checking](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-checking.gif)
 
 ### Manage color (default: black)
-* custCbx-black
-* custCbx-grey
-* custCbx-white
-* custCbx-blue
-* custCbx-red
-* custCbx-violet
-* custCbx-green
+* custCbx-black ![custCbx-black](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-black.png)
+* custCbx-grey ![custCbx-grey](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-grey.png)
+* custCbx-white ![custCbx-white](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-white.png)
+* custCbx-blue ![custCbx-blue](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-blue.png)
+* custCbx-red ![custCbx-red](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-red.png)
+* custCbx-violet ![custCbx-violet](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-violet.png)
+* custCbx-green ![custCbx-green](https://raw.githubusercontent.com/alxriche/custom-checkboxes/master/example/custCbx-green.png)
 
 ***Warning: Only one class of each category can be used. In case of multiple classes from a same category, only the first one will be used.***
 
