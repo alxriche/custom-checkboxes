@@ -1,6 +1,11 @@
 # Custom checkboxes
 
-A light and simple way to custom your form checkboxes
+A light and simple way to custom your form checkboxes.
+
+## How it works
+
+This library hides the icons designated as to be customized, and creates graphic clones from `<div>` tags.
+Checked state is synchronized between them.
 
 ## Project status
 
