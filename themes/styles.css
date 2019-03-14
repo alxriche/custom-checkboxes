@@ -58,6 +58,24 @@
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+.altCbx.altCbx-cross.altCbx-on:before {
+  width: 15px;
+  height: 4px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.altCbx.altCbx-cross.altCbx-on:after {
+  width: 15px;
+  height: 4px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
 
 /* Manage animations */
 
@@ -82,10 +100,11 @@
   position: absolute;
   top: 8px;
   left: 1px;
+  border-radius: 0;
   -webkit-transform: scaleX(0) rotate(45deg);
           transform: scaleX(0) rotate(45deg);
-  -webkit-animation-name: custCbx-checking-before;
-          animation-name: custCbx-checking-before;
+  -webkit-animation-name: custCbx-checking-right;
+          animation-name: custCbx-checking-right;
   -webkit-animation-duration: 150ms;
           animation-duration: 150ms;
   -webkit-animation-fill-mode: forwards;
@@ -97,14 +116,49 @@
   position: absolute;
   top: 6px;
   left: 3px;
+  border-radius: 0;
   -webkit-transform: scaleX(0) rotate(-45deg);
           transform: scaleX(0) rotate(-45deg);
-  -webkit-animation-name: custCbx-checking-after;
-          animation-name: custCbx-checking-after;
+  -webkit-animation-name: custCbx-checking-left;
+          animation-name: custCbx-checking-left;
   -webkit-animation-delay: 100ms;
           animation-delay: 100ms;
   -webkit-animation-duration: 150ms;
           animation-duration: 150ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.altCbx.altCbx-crossing-out.altCbx-on:before {
+  width: 15px;
+  height: 4px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-radius: 0;
+  -webkit-transform: scaleX(0) rotate(-45deg);
+          transform: scaleX(0) rotate(-45deg);
+  -webkit-animation-name: custCbx-checking-left;
+          animation-name: custCbx-checking-left;
+  -webkit-animation-duration: 100ms;
+          animation-duration: 100ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.altCbx.altCbx-crossing-out.altCbx-on:after {
+  width: 15px;
+  height: 4px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  border-radius: 0;
+  -webkit-transform: scaleX(0) rotate(45deg);
+          transform: scaleX(0) rotate(45deg);
+  -webkit-animation-name: custCbx-checking-right;
+          animation-name: custCbx-checking-right;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  -webkit-animation-duration: 100ms;
+          animation-duration: 100ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -173,7 +227,7 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes custCbx-checking-before {
+@-webkit-keyframes custCbx-checking-right {
   from {
     -webkit-transform: scaleX(0) rotate(45deg);
             transform: scaleX(0) rotate(45deg);
@@ -183,7 +237,7 @@
             transform: scaleX(1) rotate(45deg);
   }
 }
-@keyframes custCbx-checking-before {
+@keyframes custCbx-checking-right {
   from {
     -webkit-transform: scaleX(0) rotate(45deg);
             transform: scaleX(0) rotate(45deg);
@@ -193,7 +247,7 @@
             transform: scaleX(1) rotate(45deg);
   }
 }
-@-webkit-keyframes custCbx-checking-after {
+@-webkit-keyframes custCbx-checking-left {
   from {
     -webkit-transform: scaleX(0) rotate(-45deg);
             transform: scaleX(0) rotate(-45deg);
@@ -203,7 +257,7 @@
             transform: scaleX(1) rotate(-45deg);
   }
 }
-@keyframes custCbx-checking-after {
+@keyframes custCbx-checking-left {
   from {
     -webkit-transform: scaleX(0) rotate(-45deg);
             transform: scaleX(0) rotate(-45deg);

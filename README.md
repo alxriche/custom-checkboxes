@@ -44,10 +44,12 @@ You can add styling classes:
 * custCbx-rounded ![custCbx-rounded](/example/custCbx-rounded.png?raw=true)
 * custCbx-round ![custCbx-round](/example/custCbx-round.png?raw=true)
 * custCbx-tick ![custCbx-tick](/example/custCbx-tick.png?raw=true)
+* custCbx-cross ![custCbx-tick](/example/custCbx-cross.png?raw=true)
 
 ### Manage animation (default: no animation)
 * custCbx-fading ![custCbx-fading](/example/custCbx-fading.gif?raw=true)
 * custCbx-checking ![custCbx-checking](/example/custCbx-checking.gif?raw=true)
+* custCbx-crossing-out ![custCbx-checking](/example/custCbx-crossing-out.gif?raw=true)
 
 ### Manage color (default: black)
 * custCbx-black ![custCbx-black](/example/custCbx-black.png?raw=true)
